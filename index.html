@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Encryptor</h1>
+
+    <div>
+        <label for="encryptField">Enter your text:</label>
+        <textarea name="phraseToEncrypt" id="encryptField" rows="5" cols="50" placeholder="Type your text here..."></textarea>
+    </div>
+
+    <div>
+        <button id="encryptBtn">Encrypt</button>
+        <button id="decryptBtn">Decrypt</button>
+    </div>
+
+    <div>
+        <h2>Result:</h2>
+        <textarea id="resultField" rows="5" cols="50" placeholder="Your encrypted or decrypted text will appear here..." readonly></textarea>
+    </div>
+
+    <div>
+        <button id="copyBtn">Copy</button>
+    </div>
+    
+    
+
+<script src="main.js"></script>
+</body>
+</html>
