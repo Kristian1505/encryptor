@@ -1,45 +1,38 @@
-¡Bienvenidas y bienvenidos a nuestro primer desafío!
+# 🔐 Encryptor Web App
 
-Durante estas cuatro semanas, vamos a trabajar en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Welcome to the **Encryptor Web App**! This is a simple yet powerful tool that allows you to encrypt and decrypt text using a custom algorithm. Perfect for keeping your messages safe and secure! 🛡️
 
-Las "llaves" de encriptación que utilizaremos son las siguientes:
+## 🚀 Features
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+- **Encrypt Text** 🔏: Convert your plain text into a secure, encrypted format.
+- **Decrypt Text** 🔓: Retrieve your original text from the encrypted version.
+- **Copy to Clipboard** 📋: Easily copy the encrypted or decrypted text with a single click!
 
-Requisitos:
+## 🎨 Styling
 
-Debe funcionar solo con letras minúsculas
+The app has a cool **robotic-space** theme 🛸, with:
 
-No deben ser utilizados letras con acentos ni caracteres especiales
+- Dark background 🌑 for an immersive experience.
+- Styled and animated buttons 💻 for a modern touch.
 
-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+## 🛠️ How to Use
 
-Por ejemplo:
-"gato" => "gaitober"
-gaitober" => "gato"
+1. **Enter your text** 💬: Type your message in the input field (remember, only lowercase letters and no special characters!).
+2. **Encrypt or Decrypt** 🔄: Click on the respective button to transform your text.
+3. **Copy the result** 📄: Use the "Copy" button to copy the output text.
 
-La página debe tener campos parainserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+## 📂 File Structure
 
-El resultado debe ser mostrado en la pantalla.
+- **HTML** 📄: Structure of the web page.
+- **CSS** 🎨: Styling of the web page, located in the `style.css` file.
+- **JavaScript** 📝: Logic for encryption, decryption, and clipboard functionality, located in `main.js`.
 
-Extras:
+## 🌐 Try it Out!
 
-Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+You can try the Encryptor Web App live at: 
 
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
+## 📜 License
 
-La columna Listos para iniciar presenta las tarjetas con elementos que aun no fueron desarrollados.
+© 2024 Kristian Hernandez. All rights reserved. 🌟
 
-En la columna En Desarrollo estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-
-En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-
-Por fin, en la columna Concluido estarán los elementos ya concluidos.
-
-El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
-
-Buen proyecto!# encryptor
+Happy Encrypting! 🔐🚀
