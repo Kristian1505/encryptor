@@ -29,7 +29,7 @@ The app has a cool **robotic-space** theme 🛸, with:
 
 ## 🌐 Try it Out!
 
-You can try the Encryptor Web App live at: 
+You can try the Encryptor Web App live at: https://kristian1505.github.io/encryptor/
 
 ## 📜 License
 
